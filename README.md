@@ -15,9 +15,13 @@ This program displays the area (in 3 different ways), circumference, and square 
 radius = input "Enter radius: "
 
 area = pi * radius ^ 2
+
 circ = 2 * pi * radius
+
 sqrt_area = sqrt(area)
+
 area_roundup = ceiling(area)
+
 area_rounddown = floor(area)
 
 display "Area: {area:.2f}"
