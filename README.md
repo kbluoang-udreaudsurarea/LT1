@@ -25,7 +25,11 @@ area_roundup = ceiling(area)
 area_rounddown = floor(area)
 
 display "Area: {area:.2f}"
+
 display "Circumference: {circ:.2f}"
+
 display "Square root of area: {sqrt_area:.2f}"
+
 display "Ceiling of area: {area_roundup:.2f}"
+
 display "Floor of area: {area_rounddown:.2f}"
